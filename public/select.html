@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>File sending protocol</title>
+</head>
+<body>
+<h1>전송하실 파일을 선택해주세요.</h1>
+<hr>
+<br>
+<form method="post" enctype="multipart/form-data" action="/process/sending">
+    <input type="file" name="sendingFile">
+    <input type="submit" value="업로드" name="submit">
+</form>
+</body>
+</html>
